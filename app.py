@@ -25,6 +25,7 @@ def home():
         f"Available Routes<br/>"
         f"/api/v1.0/precipitation (returns a dictionary of date/precipitation) <br/>"
         f"/api/v1.0/stations (returns a list of all stations by ID) <br/>"
+        f"/api/v1.0/tobs (returns the most active station's temp readings for the last year)<br/>)"
         f"/api/v1.0/2016-5-30/ (returns minimum, average and max temperatures recorded AFTER 2016-05-30) <br/>"
         f"/api/v1.0/2016-5-30/2017-6-22 (returns minimum, average and max temperatures BETWEEN 2016-05-30 and 2017-06-22"
         )
